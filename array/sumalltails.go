@@ -1,4 +1,4 @@
-package numbers
+package array
 
 func sumAllTails(numbersToSum ...[]int) (sums []int) {
 	for _, numbers := range numbersToSum {

@@ -1,4 +1,4 @@
-package numbers
+package array
 
 func SumAll(numberToSum ...[]int) (sums []int) {
 	lengthOfNumbers := len(numberToSum)

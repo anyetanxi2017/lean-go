@@ -1,4 +1,4 @@
-package numbers
+package array
 
 func sum(numbers []int) (sum int) {
 	//range 会迭代数组，每次迭代都会返回数组元素的索引和值。
