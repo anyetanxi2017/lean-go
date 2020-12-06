@@ -24,10 +24,6 @@ func (o *ConfigurableSleeper) Sleep() {
 	time.Sleep(o.duration)
 }
 
-func (s *SpySleeper) Sleep() {
-	s.Calls++
-}
-
 func main() {
 	sleeper := &ConfigurableSleeper{1 * time.Second}
 	Countdown(os.Stdout, sleeper)
