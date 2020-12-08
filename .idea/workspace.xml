@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.base/11_interface/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/12_reflect/demo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go (2)">
+  <component name="RunManager" selected="Go Build.go build demo.go (3)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -85,11 +85,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/9_pointer/demo.go" />
+      <filePath value="$PROJECT_DIR$/1.base/12_reflect/demo.go" />
       <package value="lean-go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build demo.go (3)" />
         <item itemvalue="Go Build.go build demo.go (2)" />
         <item itemvalue="Go Build.go build lean-go/1.base/11_interface" />
         <item itemvalue="Go Build.go build demo.go (1)" />
         <item itemvalue="Go Build.go build lean-go/1.base/10_struct" />
-        <item itemvalue="Go Build.go build demo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,7 @@
       <updated>1607257581447</updated>
       <workItem from="1607257583404" duration="15864000" />
       <workItem from="1607336848507" duration="19320000" />
-      <workItem from="1607439474545" duration="3380000" />
+      <workItem from="1607439474545" duration="8116000" />
     </task>
     <servers />
   </component>
