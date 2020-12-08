@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.base/10_struct/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/11_interface/demo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +55,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build demo.go (2)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +72,15 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/1.base/10_struct/demo.go" />
+      <package value="lean-go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build demo.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/1.base/11_interface/demo.go" />
       <package value="lean-go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -96,31 +103,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/1.base/8_func (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/8_func/demoSDKFunc.go" />
-      <package value="lean-go/1.base/8_func" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/1.base/9_pointer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/1.base/11_interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/1.base/9_pointer/demo.go" />
-      <package value="lean-go/1.base/9_pointer" />
+      <filePath value="$PROJECT_DIR$/1.base/11_interface/demo.go" />
+      <package value="lean-go/1.base/11_interface" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build demo.go (2)" />
+        <item itemvalue="Go Build.go build lean-go/1.base/11_interface" />
         <item itemvalue="Go Build.go build demo.go (1)" />
         <item itemvalue="Go Build.go build lean-go/1.base/10_struct" />
         <item itemvalue="Go Build.go build demo.go" />
-        <item itemvalue="Go Build.go build lean-go/1.base/9_pointer" />
-        <item itemvalue="Go Build.go build lean-go/1.base/8_func (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607257581447</updated>
       <workItem from="1607257583404" duration="15864000" />
-      <workItem from="1607336848507" duration="18667000" />
+      <workItem from="1607336848507" duration="19320000" />
+      <workItem from="1607439474545" duration="3380000" />
     </task>
     <servers />
   </component>
@@ -166,9 +165,7 @@
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="GoApplicationRunConfiguration">
-        <watch expression="" />
-      </configuration>
+      <configuration name="GoApplicationRunConfiguration" />
     </watches-manager>
   </component>
 </project>
