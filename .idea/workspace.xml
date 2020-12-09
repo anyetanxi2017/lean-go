@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/1_fmt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xx.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoTime.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/2.commonly_use_standard_library">
+  <component name="RunManager" selected="Go Build.go build lean-go/2.commonly_use_standard_library (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -80,15 +79,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/1.base/13_concurrent (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/13_concurrent/demoChannel2.go" />
-      <package value="lean-go/1.base/13_concurrent" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build lean-go/1.base/14_network_programming (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,10 +97,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lean-go/2.commonly_use_standard_library (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoTime.go" />
+      <package value="lean-go/2.commonly_use_standard_library" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build lean-go/2.commonly_use_standard_library" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/1_fmt.go" />
       <package value="lean-go/2.commonly_use_standard_library" />
       <directory value="$PROJECT_DIR$" />
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (1)" />
         <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library" />
         <item itemvalue="Go Build.go build 1_fmt.go" />
         <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming (1)" />
         <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming" />
-        <item itemvalue="Go Build.go build lean-go/1.base/13_concurrent (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +136,7 @@
       <workItem from="1607257583404" duration="15864000" />
       <workItem from="1607336848507" duration="19320000" />
       <workItem from="1607439474545" duration="14086000" />
-      <workItem from="1607516806398" duration="8331000" />
+      <workItem from="1607516806398" duration="13749000" />
     </task>
     <servers />
   </component>
