@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.base/12_reflect/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/13_concurrent/demoChannel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/13_concurrent/demoChannel2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/13_concurrent/demoConcurrent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/14_network_programming/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/14_network_programming/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,73 +57,75 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go (3)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build lean-go/1.base/14_network_programming (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build demo.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demoChannel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/10_struct/demo.go" />
+      <filePath value="$PROJECT_DIR$/1.base/13_concurrent/demoChannel.go" />
       <package value="lean-go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/11_interface/demo.go" />
+      <filePath value="$PROJECT_DIR$/1.base/13_concurrent/demo.go" />
       <package value="lean-go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/1.base/13_concurrent (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/12_reflect/demo.go" />
-      <package value="lean-go" />
+      <filePath value="$PROJECT_DIR$/1.base/13_concurrent/demoChannel2.go" />
+      <package value="lean-go/1.base/13_concurrent" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/1.base/10_struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/1.base/14_network_programming (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/1.base/10_struct/demo.go" />
-      <package value="lean-go/1.base/10_struct" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/1.base/14_network_programming/client.go" />
+      <package value="lean-go/1.base/14_network_programming" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/1.base/11_interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/1.base/14_network_programming" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/1.base/11_interface/demo.go" />
-      <package value="lean-go/1.base/11_interface" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/1.base/14_network_programming/server.go" />
+      <package value="lean-go/1.base/14_network_programming" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build demo.go (3)" />
-        <item itemvalue="Go Build.go build demo.go (2)" />
-        <item itemvalue="Go Build.go build lean-go/1.base/11_interface" />
-        <item itemvalue="Go Build.go build demo.go (1)" />
-        <item itemvalue="Go Build.go build lean-go/1.base/10_struct" />
+        <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming (1)" />
+        <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming" />
+        <item itemvalue="Go Build.go build lean-go/1.base/13_concurrent (1)" />
+        <item itemvalue="Go Build.go build demoChannel.go" />
+        <item itemvalue="Go Build.go build demo.go" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +139,8 @@
       <updated>1607257581447</updated>
       <workItem from="1607257583404" duration="15864000" />
       <workItem from="1607336848507" duration="19320000" />
-      <workItem from="1607439474545" duration="8116000" />
+      <workItem from="1607439474545" duration="14086000" />
+      <workItem from="1607516806398" duration="3421000" />
     </task>
     <servers />
   </component>
@@ -164,8 +172,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GoApplicationRunConfiguration" />
-    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
