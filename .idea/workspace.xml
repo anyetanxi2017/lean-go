@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoStrconv.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoStrconv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoNetHttp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_gorm/demo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_gorm/modules/User.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.commonly_use_standard_library/demoStrconv.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/2.commonly_use_standard_library">
+  <component name="RunManager" selected="Go Build.go build lean-go/2.commonly_use_standard_library (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -81,11 +80,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/2.commonly_use_standard_library (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/2.commonly_use_standard_library (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoLog.go" />
+      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoNetHttp.go" />
       <package value="lean-go/2.commonly_use_standard_library" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (1)" />
         <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library" />
         <item itemvalue="Go Build.go build demo.go" />
         <item itemvalue="Go Build.go build lean-go/3_gorm" />
         <item itemvalue="Go Build.go build lean-go/test_gin" />
-        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +138,7 @@
       <workItem from="1607336848507" duration="19320000" />
       <workItem from="1607439474545" duration="14086000" />
       <workItem from="1607516806398" duration="15708000" />
-      <workItem from="1607596131813" duration="9304000" />
+      <workItem from="1607596131813" duration="10905000" />
     </task>
     <servers />
   </component>
