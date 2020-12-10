@@ -1,0 +1,6 @@
+2020/12/10 02:13:13.034251 demoLog.go:73: 这是一条很普通的日志
+2020/12/10 02:13:31.194671 demoLog.go:73: 这是一条很普通的日志
+2020/12/10 02:14:00.300837 C:/Users/admin/Desktop/learn/lean-go/2.commonly_use_standard_library/demoLog.go:73: 这是一条很普通的日志。
+[小王子]2020/12/10 02:14:00.312812 C:/Users/admin/Desktop/learn/lean-go/2.commonly_use_standard_library/demoLog.go:75: 这是一条很普通的日志。
+2020/12/10 02:14:43.701752 demoLog.go:73: 这是一条很普通的日志
+2020/12/10 02:16:53.026325 demoLog.go:81: 加油hx

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoTime.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.commonly_use_standard_library/demoLog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_gorm/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_gorm/modules/User.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xx.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -56,44 +63,24 @@
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/2.commonly_use_standard_library (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build demo.go">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build 1_fmt.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/1_fmt.go" />
+      <filePath value="$PROJECT_DIR$/3_gorm/demo.go" />
       <package value="lean-go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/1.base/14_network_programming (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/14_network_programming/client.go" />
-      <package value="lean-go/1.base/14_network_programming" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/1.base/14_network_programming" type="GoApplicationRunConfiguration" factoryName="Go Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/1.base/14_network_programming/server.go" />
-      <package value="lean-go/1.base/14_network_programming" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -106,22 +93,40 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/2.commonly_use_standard_library" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/2.commonly_use_standard_library (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/1_fmt.go" />
+      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoLog.go" />
       <package value="lean-go/2.commonly_use_standard_library" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lean-go/3_gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/3_gorm/demo.go" />
+      <package value="lean-go/3_gorm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lean-go/test_gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test_gin/demo.go" />
+      <package value="lean-go/test_gin" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build demo.go" />
+        <item itemvalue="Go Build.go build lean-go/3_gorm" />
+        <item itemvalue="Go Build.go build lean-go/test_gin" />
+        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (2)" />
         <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (1)" />
-        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library" />
-        <item itemvalue="Go Build.go build 1_fmt.go" />
-        <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming (1)" />
-        <item itemvalue="Go Build.go build lean-go/1.base/14_network_programming" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +141,8 @@
       <workItem from="1607257583404" duration="15864000" />
       <workItem from="1607336848507" duration="19320000" />
       <workItem from="1607439474545" duration="14086000" />
-      <workItem from="1607516806398" duration="13749000" />
+      <workItem from="1607516806398" duration="15708000" />
+      <workItem from="1607596131813" duration="6536000" />
     </task>
     <servers />
   </component>
