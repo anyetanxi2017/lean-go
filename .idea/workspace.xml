@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/demo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/entity/vo/vo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/service/walletService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/app/blog/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/app/blog/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/app/shop/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/app/shop/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/routers/blog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/routers/routers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/routers/shop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/rita_stock_v2.QOOY0A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/rita_stock_v2.QOOY0A.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/demo1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +73,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\routers" />
       <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\entity\vo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go (1)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build lean-go/3.gin">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,7 +158,8 @@
       <workItem from="1607336848507" duration="19320000" />
       <workItem from="1607439474545" duration="14086000" />
       <workItem from="1607516806398" duration="15708000" />
-      <workItem from="1607596131813" duration="16116000" />
+      <workItem from="1607596131813" duration="16177000" />
+      <workItem from="1607684732943" duration="8370000" />
     </task>
     <servers />
   </component>
