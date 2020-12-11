@@ -5,11 +5,6 @@ import (
 	"net/http"
 )
 
-func Routers(e *gin.Engine) {
-	e.GET("/goods", goodsHandler)
-	e.GET("/checkout", checkoutHandler)
-}
-
 func checkoutHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"code": 1})
 }

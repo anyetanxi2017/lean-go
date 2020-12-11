@@ -2,20 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/app/blog/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/app/blog/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/app/shop/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/app/shop/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/routers/blog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/routers/routers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/routers/shop.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/rita_stock_v2.QOOY0A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e01dada-a322-4d13-88c7-0ba8e79055e3/storage_v2/_src_/schema/rita_stock_v2.QOOY0A.zip" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/0.main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/1.getparam_from_querystring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/2.getparam_from_form.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/3.getparam_form_path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/4.getparam_from_bing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/5.redirect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/6.uploadfile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/7.router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/8.cost.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/9.run_multiple_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/0.base_register_router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/1.split_routing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/routers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/shop/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/utils/jwtUtil.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/demo1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/app/blog/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/blog/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/app/blog/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/blog/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/app/shop/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/app/shop/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/shop/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/demo1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/entity/vo/vo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/routers/blog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/routers.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/routers/routers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/shop.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/routers/shop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.0.gin/service/walletService.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -68,81 +84,85 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\routers" />
-      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\entity\vo" />
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\3.gin_JWT\utils" />
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin" />
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.1.gin.routing\3.routing_for_multiple_app\routers" />
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.1.gin.routing\3.routing_for_multiple_app" />
+      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.1.gin.routing" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/3.gin">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build lean-go/3.gin/3.gin_JWT">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build demo.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build jwtUtil.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/3.gin/demo.go" />
+      <filePath value="$PROJECT_DIR$/3.gin/3.gin_JWT/utils/jwtUtil.go" />
       <package value="lean-go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/3.0.gin.baseUse (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/3_gorm/demo.go" />
-      <package value="lean-go" />
+      <filePath value="$PROJECT_DIR$/3.0.gin.baseUse/8.cost.go" />
+      <package value="lean-go/3.0.gin.baseUse" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/2.commonly_use_standard_library (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoNetHttp.go" />
-      <package value="lean-go/2.commonly_use_standard_library" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/2.commonly_use_standard_library" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2.commonly_use_standard_library/demoStrconv.go" />
-      <package value="lean-go/2.commonly_use_standard_library" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/3.gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lean-go/3.2.gin.routing_for_multiple_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/3.gin/demo.go" />
-      <package value="lean-go/3.gin" />
+      <filePath value="$PROJECT_DIR$/3.2.gin.routing_for_multiple_file/main.go" />
+      <package value="lean-go/3.2.gin.routing_for_multiple_file" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lean-go/3.gin/3.gin_JWT" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" />
+      <package value="lean-go/3.gin/3.gin_JWT" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lean-go/3.gin/3.gin_JWT/utils" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/3.gin/3.gin_JWT/utils/jwtUtil.go" />
+      <package value="lean-go/3.gin/3.gin_JWT/utils" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build lean-go/3.gin" />
-        <item itemvalue="Go Build.go build demo.go (1)" />
-        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library (1)" />
-        <item itemvalue="Go Build.go build lean-go/2.commonly_use_standard_library" />
-        <item itemvalue="Go Build.go build demo.go" />
+        <item itemvalue="Go Build.go build lean-go/3.gin/3.gin_JWT" />
+        <item itemvalue="Go Build.go build jwtUtil.go" />
+        <item itemvalue="Go Build.go build lean-go/3.gin/3.gin_JWT/utils" />
+        <item itemvalue="Go Build.go build lean-go/3.2.gin.routing_for_multiple_file" />
+        <item itemvalue="Go Build.go build lean-go/3.0.gin.baseUse (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +179,9 @@
       <workItem from="1607439474545" duration="14086000" />
       <workItem from="1607516806398" duration="15708000" />
       <workItem from="1607596131813" duration="16177000" />
-      <workItem from="1607684732943" duration="8370000" />
+      <workItem from="1607684732943" duration="16780000" />
+      <workItem from="1607710464520" duration="551000" />
+      <workItem from="1607711028783" duration="2810000" />
     </task>
     <servers />
   </component>
@@ -183,17 +205,6 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/1.base/3_operator/demo.go</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
