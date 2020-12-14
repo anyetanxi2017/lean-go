@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/0.main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/1.getparam_from_querystring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/2.getparam_from_form.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/3.getparam_form_path.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/4.getparam_from_bing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/5.redirect.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/6.uploadfile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/7.router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/8.cost.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/9.run_multiple_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/0.base_register_router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/1.split_routing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/1.base/routers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/shop/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/utils/jwtUtil.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.base/8_func/1.sennom_function.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/app/blog/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/blog/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/app/blog/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/blog/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/app/shop/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/app/shop/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/app/shop/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/demo1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/entity/vo/vo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/routers/blog.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/routers.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/3.routing_for_multiple_app/routers/routers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/routers/shop.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/2.gin_routing/2.routing_for_multiple_file/routers/shop.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.0.gin/service/walletService.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Go" />
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -90,6 +63,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\3.gin_JWT\utils" />
@@ -100,13 +76,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build lean-go/3.gin/3.gin_JWT">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,6 +160,7 @@
       <workItem from="1607684732943" duration="16780000" />
       <workItem from="1607710464520" duration="551000" />
       <workItem from="1607711028783" duration="2810000" />
+      <workItem from="1607970374874" duration="336000" />
     </task>
     <servers />
   </component>
