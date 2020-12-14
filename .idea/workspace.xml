@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/1.gin_baseUse/10.middlewareErrorHandler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/utils/result.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/utils/runtime_exception.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/utils/sql_error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/3.gin_JWT/utils/jwtUtil.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/utils/jwtUtil.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/middlewares/mycors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/1.gin_baseUse/10.middlewareErrorHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/middlewares/middlewareErrorHandler.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +160,7 @@
       <workItem from="1607684732943" duration="16780000" />
       <workItem from="1607710464520" duration="551000" />
       <workItem from="1607711028783" duration="2810000" />
-      <workItem from="1607970374874" duration="1760000" />
+      <workItem from="1607970374874" duration="2121000" />
     </task>
     <servers />
   </component>
