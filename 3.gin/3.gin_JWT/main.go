@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"lean-go/3.gin/3.gin_JWT/utils"
+	utils2 "lean-go/3.gin/utils"
 	"net/http"
 	"strings"
 )
@@ -17,7 +17,7 @@ func main() {
 
 // 资源
 func homeHandler(c *gin.Context) {
-	mc := c.MustGet("username").(*utils.MyClaims)
+	mc := c.MustGet("username").(*utils2.MyClaims)
 	c.JSON(http.StatusOK, gin.H{"code": 2000, "msg": "success", "data": mc})
 	return
 }
@@ -35,7 +35,7 @@ func authHandler(c *gin.Context) {
 		return
 	}
 	if user.Username == "yy" && user.Password == "123123" {
-		token, _ := utils.GenToken(user.Username)
+		token, _ := utils2.GenToken(user.Username)
 		c.JSON(http.StatusOK, gin.H{"code": 2000, "msg": "success", "data": gin.H{"token": token}})
 		return
 	}
@@ -70,7 +70,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 			c.Abort()
 			return
 		}
-		info, err := utils.ParseToken(parts[1])
+		info, err := utils2.ParseToken(parts[1])
 		if err != nil {
 			c.JSON(http.StatusOK, gin.H{"code": 2005, "msg": "无效的Token"})
 			c.Abort()
