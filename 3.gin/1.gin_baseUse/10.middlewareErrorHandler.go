@@ -15,7 +15,7 @@ func main() {
 	r.Run()
 }
 
-// panic 错误恢复中间件使用
+// 错误中间件处理器
 func MiddlewareErrorHandle(c *gin.Context) {
 
 	//b:= response.NewBaseResponse()
