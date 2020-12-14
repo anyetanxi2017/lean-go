@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/middlewares/mycors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/1.gin_baseUse/10.middlewareErrorHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/middlewares/middlewareErrorHandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/middlewares/logrus.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -68,14 +73,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3.gin/middlewares" />
       <recent name="$PROJECT_DIR$/3.gin/utils" />
       <recent name="$PROJECT_DIR$/3.gin" />
       <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin\3.gin_JWT\utils" />
       <recent name="C:\Users\admin\Desktop\learn\lean-go\3.gin" />
-      <recent name="C:\Users\admin\Desktop\learn\lean-go\3.1.gin.routing\3.routing_for_multiple_app\routers" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/3.gin/3.gin_JWT">
+  <component name="RunManager" selected="HTTP Request.test#1">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,24 +103,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build lean-go/3.0.gin.baseUse (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/3.0.gin.baseUse/8.cost.go" />
-      <package value="lean-go/3.0.gin.baseUse" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/3.2.gin.routing_for_multiple_file" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/3.2.gin.routing_for_multiple_file/main.go" />
-      <package value="lean-go/3.2.gin.routing_for_multiple_file" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build lean-go/3.gin/3.gin_JWT" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -134,13 +121,25 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lean-go/3.gin/middlewares" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/3.gin/middlewares/logrus.go" />
+      <package value="lean-go/3.gin/middlewares" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/3.gin/test.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test#1" />
+        <item itemvalue="Go Build.go build lean-go/3.gin/middlewares" />
         <item itemvalue="Go Build.go build lean-go/3.gin/3.gin_JWT" />
         <item itemvalue="Go Build.go build jwtUtil.go" />
         <item itemvalue="Go Build.go build lean-go/3.gin/3.gin_JWT/utils" />
-        <item itemvalue="Go Build.go build lean-go/3.2.gin.routing_for_multiple_file" />
-        <item itemvalue="Go Build.go build lean-go/3.0.gin.baseUse (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,7 @@
       <workItem from="1607684732943" duration="16780000" />
       <workItem from="1607710464520" duration="551000" />
       <workItem from="1607711028783" duration="2810000" />
-      <workItem from="1607970374874" duration="2121000" />
+      <workItem from="1607970374874" duration="3317000" />
     </task>
     <servers />
   </component>
