@@ -1,21 +1,20 @@
-package main
+package middlewares
 
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"lean-go/3.gin/config"
-	"net/http"
+	"lean-go/3.gin/4.struct_demo/basic/config"
 	"time"
 )
 
-func main() {
-	r := gin.Default()
-	r.Use(LoggerToFile()) // 暂时注释，测试稳定后再放开
-	r.GET("/hello", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{"code": 1, "msg": "hello"})
-	})
-	r.Run()
-}
+//func main() {
+//	r := gin.Default()
+//	r.Use(LoggerToFile()) // 暂时注释，测试稳定后再放开
+//	r.GET("/hello", func(c *gin.Context) {
+//		c.JSON(http.StatusOK, gin.H{"code": 1, "msg": "hello"})
+//	})
+//	r.Run()
+//}
 
 // 日志记录中间件
 func LoggerToFile() gin.HandlerFunc {

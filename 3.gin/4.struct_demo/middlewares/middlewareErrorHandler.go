@@ -1,19 +1,13 @@
-package main
+package middlewares
 
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"lean-go/3.gin/utils"
+	"lean-go/3.gin/4.struct_demo/basic/utils"
 	"net/http"
 	"runtime/debug"
 )
 
-func main() {
-	// 具体使用
-	r := gin.Default()
-	r.Use(MiddlewareErrorHandle)
-	r.Run()
-}
 
 // 错误中间件处理器
 func MiddlewareErrorHandle(c *gin.Context) {

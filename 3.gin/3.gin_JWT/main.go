@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	utils2 "lean-go/3.gin/utils"
+	utils2 "lean-go/3.gin/4.struct_demo/basic/utils"
 	"net/http"
 	"strings"
 )

@@ -1,0 +1,9 @@
+mysql1:
+  url: 127.0.0.1:330
+  username: root
+  password: 123456
+mysql2:
+  url: 127.0.0.1:330333
+  username: root33
+  password: 12345633
+
