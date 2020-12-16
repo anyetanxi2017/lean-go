@@ -8,3 +8,4 @@ go语言学习
 - [Go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
 - [gorm文档](http://gorm.book.jasperxu.com/)
 - [gorm文档2](https://learnku.com/docs/gorm/v2)
+- [gin框架文档](https://gin-gonic.com/zh-cn/docs/)
