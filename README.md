@@ -9,3 +9,5 @@ go语言学习
 - [gorm文档](http://gorm.book.jasperxu.com/)
 - [gorm文档2](https://learnku.com/docs/gorm/v2)
 - [gin框架文档](https://gin-gonic.com/zh-cn/docs/)
+
+- [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
