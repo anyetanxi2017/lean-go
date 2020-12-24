@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/jinzhu/gorm"
 	"lean-go/3.gin/4.struct_demo/basic/config"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"time"
 )
 
@@ -13,11 +14,11 @@ var (
 )
 
 func Init(config config.Mysql) {
+	fmt.Println("配置数据库:", config.Addr)
 	db := GetMysql(config.NameSpace, config.Addr)
 	// 开启 Logger,以展示详细的日志
 	db.LogMode(true)
 
-	// todo 这是什么意思？
 	db.SingularTable(true)
 	db.DB().SetMaxIdleConns(config.MaxIdleConns)
 	db.DB().SetMaxOpenConns(config.MaxOpenConns)

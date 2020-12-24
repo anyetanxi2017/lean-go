@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba80d23f-2cb4-4993-b446-6ddaabf8a3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/db/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/plugins/plugin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/router/v1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/router/v1/r_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/common/constants/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/common/constants/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/controller/v1/user/Controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/models/request/base_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/models/response/response.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/models/us_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/repository/base_rep.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/repository/user_rep.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/service/user/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.viper/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_yaml.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/plugins/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.gorm/exercise/demo1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.gorm/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/local/database.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/301cc832-5497-4f5d-b8bd-12f2146d83dd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/301cc832-5497-4f5d-b8bd-12f2146d83dd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59122ec7-73b7-4842-a7db-b585535020ac.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59122ec7-73b7-4842-a7db-b585535020ac/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59122ec7-73b7-4842-a7db-b585535020ac/storage_v2/_src_/schema/rita_stock.-wmyXg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59122ec7-73b7-4842-a7db-b585535020ac/storage_v2/_src_/schema/rita_stock.-wmyXg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/middlewares/logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/middlewares/logrus.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/middlewares/middlewareErrorHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/middlewares/middlewareErrorHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/middlewares/mycors.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/middlewares/mycors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/utils/jwtUtil.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/utils/jwtUtil.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/utils/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/utils/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/utils/runtime_exception.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/utils/runtime_exception.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.gin/utils/sql_error.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/utils/sql_error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/plugins/plugin.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/basic/plugins/plugin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/4.struct_demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.gin/4.struct_demo/web/controller/v1/user/Controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/3.gin/4.struct_demo/web/controller/v1/user/Controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +74,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.gin/4.struct_demo/web/common/constants" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf/local" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -97,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/conf/local" />
       <recent name="$PROJECT_DIR$/3.gin/4.struct_demo/web/common/constants" />
       <recent name="$PROJECT_DIR$/3.gin/4.struct_demo/web/controller/v1" />
     </key>
@@ -129,44 +120,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build lean-go/4.viper">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="go build lean-go/3.gin/3.gin_JWT" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/3.gin/3.gin_JWT/main.go" />
-      <package value="lean-go/3.gin/3.gin_JWT" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build lean-go/5.gorm/exercise">
     <configuration name="go build lean-go/3.gin/4.struct_demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lean-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/3.gin/4.struct_demo/main.go" />
       <package value="lean-go/3.gin/4.struct_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lean-go/3.gin/middlewares" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lean-go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/3.gin/middlewares/logrus.go" />
-      <package value="lean-go/3.gin/middlewares" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -179,16 +139,40 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/3.gin/test.http" runType="Run single request">
+    <configuration name="go build lean-go/5.gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/5.gorm/main.go" />
+      <package value="lean-go/5.gorm" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lean-go/5.gorm/exercise" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/5.gorm/exercise/demo1.go" />
+      <package value="lean-go/5.gorm/exercise" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lean-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/3.gin/4.struct_demo/main.go" />
+      <package value="lean-go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build lean-go/4.viper" />
+        <item itemvalue="Go Build.go build lean-go/5.gorm/exercise" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build lean-go/5.gorm" />
         <item itemvalue="Go Build.go build lean-go/3.gin/4.struct_demo" />
-        <item itemvalue="HTTP Request.test#1" />
-        <item itemvalue="Go Build.go build lean-go/3.gin/middlewares" />
-        <item itemvalue="Go Build.go build lean-go/3.gin/3.gin_JWT" />
+        <item itemvalue="Go Build.go build lean-go/4.viper" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +192,9 @@
       <workItem from="1607684732943" duration="16780000" />
       <workItem from="1607710464520" duration="551000" />
       <workItem from="1607711028783" duration="2810000" />
-      <workItem from="1607970374874" duration="19703000" />
+      <workItem from="1607970374874" duration="26380000" />
+      <workItem from="1608032421814" duration="6237000" />
+      <workItem from="1608054331986" duration="1316000" />
     </task>
     <servers />
   </component>
@@ -232,6 +218,13 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

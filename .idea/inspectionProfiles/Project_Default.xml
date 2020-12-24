@@ -15,6 +15,7 @@
         <method importPath="math/rand" receiver="*Rand" name="Read" />
         <method importPath="net" receiver="Conn" name="Close" />
         <method importPath="io" receiver="ReadCloser" name="Close" />
+        <method importPath="github.com/jinzhu/gorm" receiver="*DB" name="Close" />
       </methods>
     </inspection_tool>
     <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">

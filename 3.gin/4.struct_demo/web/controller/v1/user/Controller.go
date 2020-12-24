@@ -24,8 +24,7 @@ func (v *Controller) Login(c *gin.Context) {
 		v.Response.Fail(c, valid.Errors[0].Message)
 		return
 	}
-	svc := user.NewServiceUser()
-	res, err := svc.Login(resUsername, resPwd)
+	res, err := user.NewServiceUser().Login(resUsername, resPwd)
 	if err != nil {
 		v.Response.Fail(c, err.Error())
 		return

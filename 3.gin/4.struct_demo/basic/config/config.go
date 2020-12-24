@@ -5,6 +5,7 @@ import (
 	"github.com/lestrrat-go/file-rotatelogs"
 	"github.com/rifflock/lfshook"
 	"github.com/sirupsen/logrus"
+	"log"
 	"os"
 	"path"
 	"time"
@@ -14,6 +15,14 @@ var (
 	GConfig Config
 	Env     string
 )
+
+// 初始化环境
+func InitEnv() {
+	if Env = os.Getenv(ENVKey); Env == "" {
+		Env = LocalEnv
+	}
+	log.Println("current env:", Env)
+}
 
 const (
 	ENVKey = "ENV"

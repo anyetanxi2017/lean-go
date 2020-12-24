@@ -1,0 +1,21 @@
+default:
+  MaxIdleConns: 10
+  MaxOpenConns: 50
+  Addr: "root:123456@tcp(localhost:3306)/bhmc_common?charset=utf8mb4&parseTime=True&loc=Local&timeout=20s&readTimeout=20s&writeTimeout=20s"
+#car:
+#  MaxIdleConns: 10
+#  MaxOpenConns: 50
+#  Addr: "dev:BE5v4OEOgyC6aGNW@tcp(localhost:3306)/bhmc_car?charset=utf8mb4&parseTime=True&loc=Local&timeout=20s&readTimeout=20s&writeTimeout=20s"
+#bhmccard: #卡券数据库
+#  MaxIdleConns: 10
+#  MaxOpenConns: 50
+#  Addr: "dev:BE5v4OEOgyC6aGNW@tcp(localhost:3306)/bhmc_card?charset=utf8mb4&parseTime=True&loc=Local&timeout=20s&readTimeout=20s&writeTimeout=20s"
+#maindbselect: #主库的只读权限，为解决主从延迟问题
+#  MaxIdleConns: 10
+#  MaxOpenConns: 50
+#  Addr: "read_only_test:BE5v4OEOgm6aGNW@tcp(localhost:3306)/bhmc_common?charset=utf8mb4&parseTime=True&loc=Local&timeout=20s&readTimeout=20s&writeTimeout=20s"
+#
+#fans: #fans数据库
+#  MaxIdleConns: 10
+#  MaxOpenConns: 50
+#  Addr: "dev:BE5v4OEOgyC6aGNW@tcp(localhost:3306)/fans?charset=utf8mb4&parseTime=True&loc=Local&timeout=20s&readTimeout=20s&writeTimeout=20s"
