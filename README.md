@@ -13,3 +13,4 @@ go语言学习
 - [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
 -  [定时任务 github.com/robfig/cron](https://blog.csdn.net/hello_old_city/article/details/106097828?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-2&spm=1001.2101.3001.4242)
 - [go语言高级编程](https://chai2010.cn/advanced-go-programming-book/)
+- [浪子推荐幕课网go语言教程](https://class.imooc.com/sale/go)
