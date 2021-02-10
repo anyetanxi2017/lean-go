@@ -2,6 +2,7 @@ package utils
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -17,6 +18,7 @@ type TimeUtil struct {
 
 type Datetime time.Time
 
+// 日期格式化
 func (t Datetime) MarshalJSON() ([]byte, error) {
 	var stamp = fmt.Sprintf("\"%s\"", time.Time(t).Format("2006-01-02 15:04:05"))
 	return []byte(stamp), nil
@@ -34,6 +36,36 @@ func (TimeUtil) GetTimeEnd(date time.Time) time.Time {
 	timeStr := date.Format("2006-01-02")
 	t, _ := time.ParseInLocation("2006-01-02 15:04:05", timeStr+" 23:59:59", time.Local)
 	return t
+}
+
+//获取传入的时间所在月份的第一天，即某月第一天的0点。如传入time.Now(), 返回当前月份的第一天0点时间。
+func (t TimeUtil) GetBeginDateOfMonth(d time.Time) time.Time {
+	d = d.AddDate(0, 0, -d.Day()+1)
+	return t.GetZeroTime(d)
+}
+
+//获取传入的时间所在月份的最后一天，即某月最后一天的0点。如传入time.Now(), 返回当前月份的最后一天0点时间。
+func (t TimeUtil) GetEndDateOfMonth(d time.Time) time.Time {
+	return t.GetBeginDateOfMonth(d).AddDate(0, 1, -1)
+}
+
+//获取某一天的0点时间
+func (TimeUtil) GetZeroTime(d time.Time) time.Time {
+	return time.Date(d.Year(), d.Month(), d.Day(), 0, 0, 0, 0, d.Location())
+}
+
+// 毫秒转时间
+func (TimeUtil) MsToTime(ms string) (time.Time, error) {
+	msInt, err := strconv.ParseInt(ms, 10, 64)
+	if err != nil {
+		return time.Time{}, err
+	}
+
+	tm := time.Unix(0, msInt*int64(time.Millisecond))
+
+	fmt.Println(tm.Format("2006-02-01 15:04:05.000"))
+
+	return tm, nil
 }
 
 //当前时间是否在指定范围内
