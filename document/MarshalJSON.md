@@ -7,3 +7,9 @@ func (t Datetime) MarshalJSON() ([]byte, error) {
 }
 
 ```
+
+
+## 重写 MarshalJson
+https://colobu.com/2020/03/19/Custom-JSON-Marshalling-in-Go/
+
+
