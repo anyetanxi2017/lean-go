@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"errors"
 	"fmt"
 	"strconv"
 	"time"
@@ -11,16 +12,30 @@ const (
 	SecondsOfDay   = SecondsOfHour * 24
 	SecondsOfWeek  = SecondsOfDay * 7
 	SecondsOfMonth = SecondsOfDay * 30
+
+	ReqDateToday     = "today"
+	ReqDateYesterday = "yesterday"
+	ReDateSeven      = "sevendays"
+	ReqDateThisMonth = "thisMonth"
+	ReqDateLastMonth = "lastMonth"
 )
 
 type TimeUtil struct {
 }
 
+// 时间格式化
 type Datetime time.Time
 
-// 日期格式化
 func (t Datetime) MarshalJSON() ([]byte, error) {
 	var stamp = fmt.Sprintf("\"%s\"", time.Time(t).Format("2006-01-02 15:04:05"))
+	return []byte(stamp), nil
+}
+
+// 日期格式化
+type Date time.Time
+
+func (t Date) MarshalJSON() ([]byte, error) {
+	var stamp = fmt.Sprintf("\"%s\"", time.Time(t).Format("2006-01-02"))
 	return []byte(stamp), nil
 }
 
@@ -94,4 +109,32 @@ func (t TimeUtil) IsToday(timeStr string) (ok bool) {
 		today := t.GetTimeBegin(time.Now())
 		return parse == today
 	}
+}
+
+// 根据类型返回开始时间和结束时间
+func (t TimeUtil) GetBeginAndEndDate(dateType string) (begin time.Time, end time.Time, err error) {
+	now := time.Now()
+	switch dateType {
+	case ReqDateToday, "": //默认今天
+		begin = t.GetTimeBegin(now)
+		end = t.GetTimeEnd(now)
+	case ReqDateYesterday:
+		now = now.AddDate(0, 0, -1)
+		begin = t.GetTimeBegin(now)
+		end = t.GetTimeEnd(now)
+	case ReDateSeven: //7天
+		now = now.AddDate(0, 0, -7)
+		begin = t.GetTimeBegin(now)
+		end = t.GetTimeEnd(time.Now())
+	case ReqDateThisMonth:
+		begin = t.GetBeginDateOfMonth(now)
+		end = t.GetEndDateOfMonth(now)
+	case ReqDateLastMonth:
+		now = now.AddDate(0, -1, 0)
+		begin = t.GetBeginDateOfMonth(now)
+		end = t.GetEndDateOfMonth(now)
+	default:
+		err = errors.New(fmt.Sprintf("不支持的类型:%v", dateType))
+	}
+	return
 }
