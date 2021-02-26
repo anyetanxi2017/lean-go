@@ -3,6 +3,7 @@ package utils
 import (
 	"errors"
 	"gin-vue-admin/constant"
+	"gin-vue-admin/model/response"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"time"
@@ -55,4 +56,27 @@ func (j JwtUtil) GetClaims(c *gin.Context) *JwtCustomClaims {
 	}
 	userInfo := claims.(*JwtCustomClaims)
 	return userInfo
+}
+
+// JWT 中间件
+func (j JwtUtil) JWTAuthMiddleware() func(c *gin.Context) {
+	return func(c *gin.Context) {
+		token := c.Request.Header.Get("token")
+		if token == "" {
+			token = c.Query("token")
+			if token == "" {
+				response.FailWithMessage("token为空", c)
+				c.Abort()
+				return
+			}
+		}
+		jwtInfo, err := JwtUtil{}.ParseToken(token)
+		if err != nil {
+			response.FailWithMessage(err.Error(), c)
+			c.Abort()
+			return
+		}
+		c.Set(constant.UserKey, jwtInfo)
+		c.Next()
+	}
 }
