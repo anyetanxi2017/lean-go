@@ -2,7 +2,6 @@ package utils
 
 import (
 	"errors"
-	"gin-vue-admin/constant"
 	"gin-vue-admin/model/response"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
@@ -11,6 +10,15 @@ import (
 
 type JwtUtil struct {
 }
+
+// 常量
+var (
+	MySecret            = []byte("这个一个特别的冬天")
+	TokenExpireDuration = time.Hour * 24 * 7 //7天过期时间
+	//jwt验证成功后，放到 gin上下文中
+	UserKey string = "USER_KEY"
+)
+
 type JwtCustomClaims struct {
 	ID       uint
 	Username string
@@ -23,12 +31,12 @@ func (j JwtUtil) GenToken(uid uint, username string) string {
 		ID:       uid,
 		Username: username,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(constant.TokenExpireDuration).Unix(), //过期时间
-			Issuer:    "my-project",                                        // 签发人
+			ExpiresAt: time.Now().Add(TokenExpireDuration).Unix(), //过期时间
+			Issuer:    "my-project",                               // 签发人
 		},
 	}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, c)
-	signedString, err := token.SignedString(constant.MySecret)
+	signedString, err := token.SignedString(MySecret)
 	if err != nil {
 		panic(err)
 	}
@@ -38,7 +46,7 @@ func (j JwtUtil) GenToken(uid uint, username string) string {
 // 解析JWT
 func (j JwtUtil) ParseToken(tokenStr string) (*JwtCustomClaims, error) {
 	token, err := jwt.ParseWithClaims(tokenStr, &JwtCustomClaims{}, func(token *jwt.Token) (interface{}, error) {
-		return constant.MySecret, nil
+		return MySecret, nil
 	})
 	if err != nil {
 		return nil, errors.New("token已过期，请重新登录")
@@ -50,7 +58,7 @@ func (j JwtUtil) ParseToken(tokenStr string) (*JwtCustomClaims, error) {
 }
 
 func (j JwtUtil) GetClaims(c *gin.Context) *JwtCustomClaims {
-	claims, exists := c.Get(constant.UserKey)
+	claims, exists := c.Get(UserKey)
 	if !exists {
 		panic("获取用户信息为空")
 	}
@@ -76,7 +84,7 @@ func (j JwtUtil) JWTAuthMiddleware() func(c *gin.Context) {
 			c.Abort()
 			return
 		}
-		c.Set(constant.UserKey, jwtInfo)
+		c.Set(UserKey, jwtInfo)
 		c.Next()
 	}
 }
