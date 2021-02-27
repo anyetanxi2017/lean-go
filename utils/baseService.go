@@ -2,10 +2,14 @@ package service
 
 import (
 	"errors"
-	"gin-vue-admin/constant"
 	"gin-vue-admin/global"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
+)
+
+const (
+	ErrNotFond = "记录不存在"
+	ErrService = "服务器异常，请稍后再试"
 )
 
 type baseService struct {
@@ -19,9 +23,9 @@ func (baseService) GetLog() *zap.Logger {
 }
 func (baseService) DbNotFond(err error) error {
 	if err == gorm.ErrRecordNotFound {
-		err = errors.New(constant.ErrNotFond)
+		err = errors.New(ErrNotFond)
 	} else {
-		err = errors.New(constant.ErrService)
+		err = errors.New(ErrService)
 	}
 	return err
 }
