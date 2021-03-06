@@ -46,3 +46,12 @@ func (n NumUtil) StrToFloat(s string) float64 {
 	}
 	return 0
 }
+func (n NumUtil) NumToInt64(num interface{}) (res int64, err error) {
+	switch num.(type) {
+	case string:
+		res, err = strconv.ParseInt(num.(string), 10, 64)
+	case int:
+		res = int64(num.(int))
+	}
+	return
+}
