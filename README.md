@@ -4,6 +4,7 @@ go语言学习
 ## 学习资源
 - https://www.liwenzhou.com/
 - http://www.topgoer.com/  第二
+- https://cyent.github.io/golang/ 博客
 
 - [gorm文档](http://gorm.book.jasperxu.com/)
 - [gorm文档2](https://learnku.com/docs/gorm/v2)
